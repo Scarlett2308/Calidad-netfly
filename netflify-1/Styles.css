@@ -1,0 +1,35 @@
+body {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  text-align: center;
+  background: url('Imagen/gato.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: #000000;
+  margin-top: 170px;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-shadow: 0 20px 50px rgb(0, 0, 0);
+}
+
+button {
+  padding: 12px 28px;
+  font-size: 18px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #7219d8 0%, #480b7a 100%);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 16px rgba(33, 147, 176, 0.15);
+  transition: background 0.3s, transform 0.2s;
+  margin-top: 20px;
+}
+
+
+button:hover {
+  background: linear-gradient(90deg, #2a0257 0%, #23033d 100%);
+  transform: scale(1.05);
+}
